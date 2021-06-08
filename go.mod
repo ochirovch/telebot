@@ -1,4 +1,4 @@
-module github.com/ochirovch/telebot
+module gopkg.in/ochirovch/telebot.v2
 
 go 1.13
 
