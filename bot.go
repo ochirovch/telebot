@@ -1090,6 +1090,7 @@ func (b *Bot) Accept(query *PreCheckoutQuery, errorMessage ...string) error {
 
 	if len(errorMessage) == 0 {
 		params["ok"] = "True"
+		params["error_message"] = ""
 	} else {
 		params["ok"] = "False"
 		params["error_message"] = errorMessage[0]
